@@ -1,0 +1,49 @@
+html {
+  background-color: #38deff
+}
+html body{
+  width: 100%;
+}
+p body {
+  text-align: center;
+}
+h1 {
+  font-size:70px;
+/*   color:rgb(220, 24, 178); */
+  color:black;
+  font-family: 'Rubik Dirt', cursive;
+}
+.master {
+  width: 700px;
+}
+.parallax {
+    background-image: url("https://media.cntraveler.com/photos/5f5fad3f7557491753644e3b/3:2/w_4050,h_2700,c_limit/50States50Cuisines-2020-AmberDay-Lede%20Option.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  margin-top: 2em;
+  justify-content: center;
+  
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+  text-align: center;
+}
+
+.event {
+  background-color: #D1EDF2;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 10px;
+}
